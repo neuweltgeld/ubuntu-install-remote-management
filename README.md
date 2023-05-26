@@ -10,12 +10,12 @@ sudo apt-get upgrade -y
 Installing the Xfce GUI
 You need to install some X-server packages
 ```
-sudo apt-get install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils
+sudo apt-get install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
 ```
 
 Install a remote desktop onto your server.
 ```
-sudo apt-get install xrdp
+sudo apt-get install xrdp -y
 ```
 
 Add it to the “ssl-cert”
@@ -25,7 +25,7 @@ sudo adduser xrdp ssl-cert
 
 You will need a VNC server on your server
 ```
-sudo apt-get install tightvncserver
+sudo apt-get install tightvncserver -y
 ```
 ```
 vncserver
@@ -33,7 +33,7 @@ vncserver
 
 Install Firefox for web browsing
 ```
-sudo apt-get install firefox
+sudo apt-get install firefox -y
 ```
 
 Done!
