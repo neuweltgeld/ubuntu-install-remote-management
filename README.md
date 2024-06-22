@@ -14,11 +14,13 @@ sudo apt-get install tightvncserver -y
 
 vncserver
 
+# os kurulumu bu kadar, yanına bir de chrome ekleyelim.
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-# hata alırsanız
+# çalıştırırken hata alırsanız
 sudo apt -f install
 
 reboot
