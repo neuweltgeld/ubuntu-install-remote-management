@@ -28,4 +28,6 @@ root yetkisiyle çalıştırıyorsanız çalıştırma yoluna
 ekleyin.
 
 # güvenlik sıkıntısı olabilir, bu sebeple root yerine user kullanın
+
+# artık uzaktan bağlantı uygulamalarıyla ip ve vncserver şifrenizi girerek uzak sunucunuza bağlanabilirsiniz.
 ```
