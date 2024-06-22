@@ -27,5 +27,5 @@ root yetkisiyle çalıştırıyorsanız çalıştırma yoluna
 --no-sandbox 
 ekleyin.
 
-(güvenlik sıkıntısı olabilir, bu sebeple root yerine user kullanın )
+# güvenlik sıkıntısı olabilir, bu sebeple root yerine user kullanın
 ```
